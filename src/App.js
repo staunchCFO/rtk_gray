@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Counter from './app/features/counter/Counter';
+import PostLists from './app/features/post/PostLists';
+import AddPostForm from './app/features/post/AddPostForm';
 
 function App() {
   return (
     <main className="App">
-      <Counter />
+      <PostLists />
+      <AddPostForm />
     </main>
   );
 }
