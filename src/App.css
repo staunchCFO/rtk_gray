@@ -1,3 +1,6 @@
+.body {
+  background-color: black;
+}
 .App {
   text-align: center;
 }
@@ -5,6 +8,21 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+p{
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+button {
+  padding: 15px 30px;
+  margin-right: 20px;
+  margin-bottom: 20px
+}
+
+input {
+  padding: 20px 70px;
+  margin-bottom: 40px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
