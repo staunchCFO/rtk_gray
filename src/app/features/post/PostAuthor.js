@@ -5,7 +5,9 @@ import { allAppUsers } from '../user/userSlice';
 const PostAuthor = ({ userId }) => {
     const users = useSelector(allAppUsers);
     const author = users.find(user => user.id === userId)
-    
+
+    console.log(users, 'ALL USERS')
+
     return (
         <span>
             by {author ? author.name : 'Unknown author'}

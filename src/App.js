@@ -6,8 +6,8 @@ import AddPostForm from './app/features/post/AddPostForm';
 function App() {
   return (
     <main className="App">
-      <PostLists />
       <AddPostForm />
+      <PostLists />
     </main>
   );
 }
